@@ -5,7 +5,6 @@ Input: 1 -> 2 -> 3 -> 4 -> 5, n = 2
 Output: 1 -> 2 -> 3 -> 5 
 TC=O(L)
 SC=O(1)
-
 '''
 class Node:
     def __init__(self,data):
@@ -57,3 +56,4 @@ s.removeNthEndNode(8)
 s.display()
 
         
+
