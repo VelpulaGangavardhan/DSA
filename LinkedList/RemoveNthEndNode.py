@@ -7,8 +7,6 @@ TC=O(L)
 SC=O(1)
 
 '''
-
-
 class Node:
     def __init__(self,data):
         self.data=data
@@ -57,4 +55,5 @@ for i in [1,2,3,4,5]:
 s.display()
 s.removeNthEndNode(8)
 s.display()
+
         
