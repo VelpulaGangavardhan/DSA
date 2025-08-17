@@ -47,9 +47,7 @@ class Single:
         if h2:
             tail.next=h2
         return dup.next
-                    
-                    
-            
+                                
 s=Single()
 h1=None
 h2=None
@@ -63,3 +61,4 @@ m=s.merge(h1,h2)
 s.display(m)
     
             
+
